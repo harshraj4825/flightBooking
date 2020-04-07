@@ -94,8 +94,6 @@ class FlightBookButton extends StatelessWidget{
             style: TextStyle(
                 fontSize: 20.0,
                 color: Colors.white,
-                fontFamily: 'Raleway',
-                fontWeight: FontWeight.w700),
           ),
           elevation: 6.0,
           onPressed: () => bookFlight(context)),
